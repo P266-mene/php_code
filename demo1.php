@@ -2,7 +2,7 @@
 $a= fgets(STDIN);
 $b= fgets(STDIN);
 //echo"$a";
-$num=explode(" ",$b);
+$num=array(10,60,50,15,20);
 //print_r("$num");
 //print" \n $num[0] $num[1]  $num[2]   $num[3] $num[4] \n ";
 $result=count($num);;
@@ -23,38 +23,74 @@ echo "5 minutes from right now:  ". $expire_stamp."\n";
 
 while($now_stamp !=$expire_stamp)
     {
+
     	if($now_stamp == $expire_stamp1)
         {
     			$load=$num[0];
-    			echo"$load";
+    			//echo"$load";
+    			if($load<50)
+				    {
+
+				    	echo"".a/2;
+				    }
+				    else
+				    {
+				    	echo" ".(2*a+1);
+    				}
 
         }
         if($now_stamp == $expire_stamp2)
         {
     			$load=$num[1];
-    			echo"$load";
+    			//echo"$load";
+    			if($load<50)
+				    {
+
+				    	echo" ".a/2;
+				    }
+				    else
+				    {
+				    	echo" ".(2*a+1);
+    				}
 
         }
         if($now_stamp == $expire_stamp3)
         {
     			$load=$num[2];
-    			echo"$load";
+    			//echo"$load";
+				if($load<50)
+				    {
 
+				    	echo" ".a/2;
+				    }
+				    else
+				    {
+				    	echo" ".(2*a+1);
+    				}
         }
         if($now_stamp == $expire_stamp4)
         {
     			$load=$num[3];
-				echo"$load";
+				//echo"$load";
+				if($load<50)
+				    {
+
+				    	echo" ".a/2;
+				    }
+				    else
+				    {
+				    	echo" ".(2*a+1);
+    				}
         }
     $now_stamp = date("i");
-    echo "Right now: " . $now_stamp."\n";
+   // echo "Right now: " . $now_stamp."\n";
 
     }
 	$load=$num[4];
     if($load<50)
     {
 
-    	echo"****".a/2;
+    	echo" ".(a/2);
     }
     else
     {
