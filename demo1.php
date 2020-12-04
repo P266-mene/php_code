@@ -37,7 +37,7 @@ while($now_stamp <= $expire_stamp)
 				    else
 				    {
 				    	echo" ".(2*$a+1);
-    				}
+    				    }
 
         }
        if(($now_stamp == $expire_stamp2) && ($r2==0))
@@ -53,7 +53,7 @@ while($now_stamp <= $expire_stamp)
 				 else
 				{
 					echo" ".(2*$a+1);
-    			}
+    			        }
 
         }
        if(($now_stamp == $expire_stamp3) && ($r3==0))
@@ -69,7 +69,7 @@ while($now_stamp <= $expire_stamp)
 				 else
 				{
 					echo" ".(2*$a+1);
-    			}
+    			        }
         }
        if(($now_stamp == $expire_stamp4) && ($r4 == 0))
         {
@@ -85,7 +85,7 @@ while($now_stamp <= $expire_stamp)
 				    else
 				    {
 				    	echo" ".(2*$a+1);
-    				}
+    				    }
         }
          if(($now_stamp == $expire_stamp) && ($r5 == 0))
          {
