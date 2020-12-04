@@ -2,7 +2,7 @@
 $a= fgets(STDIN);
 $b= fgets(STDIN);
 //echo"$a";
-$num=array(10,60,50,15,20);
+$num=explode(" ",$b);
 //print_r("$num");
 //print" \n $num[0] $num[1]  $num[2]   $num[3] $num[4] \n ";
 $result=count($num);;
