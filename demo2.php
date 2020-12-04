@@ -1,8 +1,8 @@
 <?php
-//$ar1=fgets(STDIN);
-//$ar2=fgets(STDIN);
-//$a=explode(" ",$ar1);
-//$b=explode(" ",$ar2);
+$ar1=fgets(STDIN);
+$ar2=fgets(STDIN);
+$a=explode(" ",$ar1);
+$b=explode(" ",$ar2);
 
 $no_of_bread=$a[0];
 $no_of_vada=$a[1];
