@@ -32,7 +32,7 @@ while($now_stamp <= $expire_stamp)
     			if($load<50)
 				    {
 
-				    	echo"   $r1***".($a/2);
+				    	echo" ".($a/2);
 				    }
 				    else
 				    {
