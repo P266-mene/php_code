@@ -13,7 +13,7 @@ $price_of_samosapav=$b[1];
 $profit=0;
 echo" $no_of_bread  $no_of_vada  $no_of_samosa $price_of_vadapav $price_of_samosapav ";
 
-while($no_of_bread >=1)
+while($no_of_bread >1)
 			{
          			if($no_of_samosa!=0)
 					{
